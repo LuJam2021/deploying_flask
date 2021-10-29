@@ -17,3 +17,6 @@
 13. git commit -m "訊息"              將檔案放進檔案管理系統
 14. heroku create [App名稱]           創立域名(也可以在Heroku上面設定AppName再用git remote add 加入連結)
 15. git push heroku master            
+16.
+17. 如果出現error: failed to push some refs to 'https://git.heroku.com/XXXXX.git' 先查詢 git log 是否有多個版本commit
+18. 執行 git reset --hard "HEAD^"  刪除最近的一個版本commit
