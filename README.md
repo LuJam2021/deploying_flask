@@ -20,4 +20,4 @@
 16.
 17. 如果出現error: failed to push some refs to 'https://git.heroku.com/XXXXX.git' 先查詢 git log 是否有多個版本commit
 18. 執行 git reset --hard "HEAD^"  刪除最近的一個版本commit
-19. CERT_HAS_EXPIRED: certificate has expired  憑證過期 解決辦法 https://devcenter.heroku.com/articles/keys
+19. CERT_HAS_EXPIRED: certificate has expired  憑證過期 解決辦法 https://devcenter.heroku.com/articles/keys 測試後仍未解
