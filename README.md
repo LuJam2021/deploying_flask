@@ -8,8 +8,8 @@
 4. 安裝 git
 5. 建立虛擬環境 (VirtualEnv)
 6. 安裝必要的套件，寫好程式並測試是否可運行
-7. 安裝 gunicorn (Heroku上面需要使用)
-8. 建立 runtime.txt (Python直譯器版本)
+7. pip install gunicorn (Heroku上面需要使用)
+8. 建立 runtime.txt (Python直譯器版本) python-3.8.5 OK
 9. 建立 Procfile (Heroku上面要跑什麼的設定) web:gunicorn app:app
 10. pip freeze > requirements.txt     建立 requirements.txt (我們安裝了那些套件，什麼版本？) 
 11. git init                          初始化版本管理
