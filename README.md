@@ -1,9 +1,10 @@
 #測試佈署 Flask
 
 pip install dj-database-url gunicorn dj-static
-  dj-database-url：heroku處理資料庫的套件
-  gunicorn：heroku伺服器的處理套件
-  dj-static：heroku處理靜態檔案的套件
+
+  *dj-database-url：heroku處理資料庫的套件
+  *gunicorn：heroku伺服器的處理套件
+  *dj-static：heroku處理靜態檔案的套件
 
 步驟：
 
