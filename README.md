@@ -16,7 +16,7 @@ pip install dj-database-url gunicorn dj-static
 6. 安裝必要的套件，寫好程式並測試是否可運行
 7. pip install gunicorn (Heroku上面需要使用)
 8. 建立 runtime.txt (Python直譯器版本) python-3.8.5 OK
-9. 建立 Procfile (Heroku上面要跑什麼的設定) web:gunicorn app:app
+9. 建立 Procfile (Heroku上面要跑什麼的設定) web: gunicorn app:app(注意web:後面需空一格)
 10. pip freeze > requirements.txt     建立 requirements.txt (我們安裝了那些套件，什麼版本？) 
 11. git init                          初始化版本管理
 12. git add .                         所有檔案加入版本管理系統
