@@ -22,8 +22,9 @@ pip install dj-database-url gunicorn dj-static
 12. git add .                         所有檔案加入版本管理系統
 13. git commit -m "訊息"              將檔案放進檔案管理系統
 14. heroku create [App名稱]           創立域名(也可以在Heroku上面設定AppName再用git remote add 加入連結)
-15. git push heroku master            
-16.
-17. 如果出現error: failed to push some refs to 'https://git.heroku.com/XXXXX.git' 先查詢 git log 是否有多個版本commit
-18. 執行 git reset --hard "HEAD^"  刪除最近的一個版本commit
-19. CERT_HAS_EXPIRED: certificate has expired  憑證過期 解決辦法 https://devcenter.heroku.com/articles/keys 測試後仍未解
+15. git remote heroku to https://git.heroku.com/XXXXX.git 已經有伺服器的話
+16. git push heroku master            
+17.
+18. 如果出現error: failed to push some refs to 'https://git.heroku.com/XXXXX.git' 先查詢 git log 是否有多個版本commit
+19. 執行 git reset --hard "HEAD^"  刪除最近的一個版本commit
+20. CERT_HAS_EXPIRED: certificate has expired  憑證過期 解決辦法 https://devcenter.heroku.com/articles/keys 測試後仍未解
